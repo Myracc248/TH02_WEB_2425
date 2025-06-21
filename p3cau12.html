@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form khảo sát</title>
+    <style>
+        body {
+            font -family:Arrial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        h3 {
+            text-align: center;
+            color: ;
+        }
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color;
+            border: 5px solid black;
+            border-radius: 30px;
+        }
+        label {
+
+        }
+    </style>
+</head>
+<body>
+    <h3>Khảo sát sinh viên IUH</h3>
+    <form>
+        <label>
+            Giới tính:
+            <input type ="radio" name="Nam" required value="Nam"> Nam
+            <input type ="radio" name="Nữ" rrequired value ="Nữ"> Nữ
+        </label>
+        <br><br>
+        <label class="agree">
+            Bạn có hài lòng với chất lượng giảng dạy của trường không?
+           <br> <input type="checkbox" name="Hài lòng" value="Hài lòng">Hài lòng<br>
+            <input type="checkbox" name="Không hài lòng" value="Không hài lòng"> Không hài lòng<br>
+        </label>
+        <br><br>
+        <label>
+            Bạn có ý kiến khác để cải thiện chất lượng giảng dạy không?
+            <textarea name="Idea" rows="4" cols="50"></textarea>
+        </label>
+    </form>
+</body>
+</html>
