@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: bisque;
+            color: black;
+        }
+        h3 {
+            text-align: center;
+            color: darkslategray;
+        }
+        form {
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 5px solid black;
+            border-radius: 30px;
+            background-color: navajowhite;
+            color: ;
+        }
+    </style>
+    <form>
+        <h3>Thanh toán đơn hàng</h3>
+        <label>
+            Địa chỉ giao hàng:<br><br><
+            <input type="text" name="address" placeholder="Nhập địa chỉ giao hàng" required><br>
+           <br> Phương thức thanh toán:<br><br>
+            <select name="payment" required>
+                <option value="credit_card">Thẻ tín dụng</option>
+                <option value="bank">Chuyển khoản ngân hàng</option>
+                <option value="paypal">Paypal</option>
+                <option value="cash">Thanh toán sau khi nhận hàng</option>
+            </select>
+        </label>
+    </form>
+</body>
+</html>
