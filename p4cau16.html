@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .product img{
+            width: 200px;
+            height: 200px;
+            display: block;
+        }
+        .product {
+            background-color:blanchedalmond;
+            border: 3px solid black;
+            border-radius: 20px;
+            padding:10px;
+            margin:10px;
+            text-align: center;
+            box-shadow:0 4px 8px rgba(150,23 ,123 ,30 );
+        }
+       .product h2{
+        text-align: center;
+        font-size: small;
+       }
+       input[type="submit"]:hover {
+            background-color: #e6e6b8 ;
+            transform: scale(1.10);
+            transition: all 0.3s ease;
+        }
+    </style>
+    <div class="container">
+        <div class="product">
+            <img src="https://cdn.tgdd.vn/News/1548159/thuc-te-hinh-anh-iphone-15-pro-max-anh-iphone-15-1(1)-800x450-1.jpg" alt="iPhone 15">
+            <h2>Iphone 15</h2>
+            <p>Giá: 35.000.000 VND</p>
+            <input type="submit" value="Mua ngay" style="background-color: darkkhaki; border:1px solid black; border-radius: 5px; padding: 10px; color: black; cursor:pointer;">
+        </div>
+        <div class="product">
+            <img src="https://cdn.tgdd.vn/Files/2022/09/04/1465167/samsung-galaxy-s23-ultra-tgdd-1-1_1280x720-800-resize.jpg" alt="Samsung Galaxy S23 Ultra">
+            <h2>Samsung Galaxy S23 Ultra</h2>
+            <p>Giá: 30.000.000 VND</p>
+            <input type="submit" value="Mua ngay" style="background-color: darkkhaki; border:1px solid black; border-radius: 5px; padding: 10px; color: black; cursor:pointer;">
+        </div>
+        <div class="product">
+            <img src="https://vatvostudio.vn/wp-content/uploads/2022/12/Xiaomi-13-va-Xiaomi-13-Pro-ra-mat-Camera-Leica-Snapdragon-8-Gen-2-gia-tu-13-trieu-dong-6.jpg" alt="Xiaomi 13 Pro">
+            <h2>Xiaomi 13 Pro</h2>
+            <p>Giá: 25.000.000 VND</p>
+            <input type="submit" value="Mua ngay" style="background-color: darkkhaki; border:1px solid black; border-radius: 5px; padding: 10px; color: black; cursor:pointer;">
+    </div>
+    <div class="product">
+        <img src="https://cellphones.com.vn/sforum/wp-content/uploads/2022/12/Nubia-RedMagic-8Pro-trong-suot-2.jpg" alt="Nubia RedMagic 8 Pro">
+        <h2>Nubia RedMagic 8 Pro</h2>
+        <p>Giá: 20.000.000 VND</p>
+        <input type="submit" value="Mua ngay" style="background-color: darkkhaki; border:1px solid black; border-radius: 5px; padding: 10px; color: black; cursor:pointer;">
+    </div>
+</body>
+</html>
