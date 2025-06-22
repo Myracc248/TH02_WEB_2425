@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: burlywood;
+            color: #333;
+        }
+        h3 {
+            text-align: center;
+            color: darkblue;
+        }
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: darksalmon;
+            border: 5px solid black;
+            border-radius: 30px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h3>Dịch vụ đặt bàn quán ăn</h3>
+        <label>
+            Ngày giờ đặt bàn:
+            <input type="datetime-local" name="date-time"><br><br>
+            Số người đặt bàn:
+            <input type="number" name="number" min="1" max="20"><br><br>
+            Yêu cầu khác:
+           <br> <textarea name="reuqest" rows="4" cols="50"></textarea>
+        </label>
+    </form>
+</body>
+</html>
